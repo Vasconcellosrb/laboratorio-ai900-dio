@@ -1,0 +1,24 @@
+            -nome: Sincronização de Configuração de Aplicativo do Azure
+  usa: Azure/AppConfiguration-Sync@v1.1.3
+  com:
+    # Caminho para o arquivo de configuração no repositório, relativo à raiz do repositório. Também suporta padrões glob e vários arquivos
+    arquivo de configuração:
+    # Formato do arquivo de configuração. Os valores válidos são: json, yaml, propriedades
+    formatar:
+    # String de conexão para a instância de configuração do aplicativo
+    string de conexão:
+    # Separador usado ao nivelar o arquivo de configuração em pares de valores-chave
+    separador:
+    # Especifica se deve ser usada uma sincronização estrita que fará com que a instância de configuração do aplicativo corresponda exatamente ao arquivo de configuração (excluindo valores-chave que não estão no arquivo de configuração). O padrão é falso
+    estrito: # opcional
+    # Prefixo que será adicionado na frente das teclas
+    prefixo: # opcional
+    # Rótulo a ser usado ao definir os pares de valores-chave. Se não for especificado, um rótulo nulo será usado
+    rótulo: # opcional
+    # Profundidade máxima (número positivo) para nivelar o arquivo de configuração
+    profundidade: # opcional
+    # Forma stringificada de um objeto JSON com o seguinte formato: { [propertyName: string]: string; }
+    tags: # opcional
+    # Tipo de conteúdo associado aos valores
+    contentType: # opcional
+          
